@@ -1,0 +1,8 @@
+SELECT * FROM maintable_Y1DXZ where LastName = "Smith" or FirstName = "Robert" order by age ASC
+
+
+
+
+
+SELECT LastName,SUM(Age) AS SumAge FROM maintable_R6UFE
+WHERE LastName = 'Smith';
